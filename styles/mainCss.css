@@ -22,3 +22,29 @@ body {
     margin-left: 60%;
     color: white; 
 }
+.main {
+    height: 85%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: azure;
+}
+.main .divOne h1 {
+    padding: 80px;
+}
+.main .divOne p {
+    font-size: 20px;
+}
+.main .divOne {
+    text-align: center;
+}
+.divOne {
+    padding: 0 100px 0 0;
+    flex: 0 1 50%;
+}
+.divTwo {
+    flex: 0 0 auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
